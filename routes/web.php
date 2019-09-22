@@ -28,5 +28,8 @@ Route::get('/projects','LandingController@show');
 route::get('/profile','landingController@profile');
 route::get('/contact','landingController@contact');
 
+
+route::get('/assessment','landingController@destroy');
+route::get('/assessment/assessing','landingController@assessment');
 // Route::get('/', 'logoutController@index');
 
