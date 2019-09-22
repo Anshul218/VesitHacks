@@ -26,6 +26,8 @@ Route::get('auth/google/callback', 'Auth\LoginController@handleProviderCallback'
 Route::get('/dashboard','LandingController@dashboard');
 Route::get('/projects','LandingController@show');
 route::get('/profile','landingController@profile');
+
+
 route::get('/assessment','landingController@destroy');
 route::get('/assessment/assessing','landingController@assessment');
 // Route::get('/', 'logoutController@index');
