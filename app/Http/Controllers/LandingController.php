@@ -101,10 +101,28 @@ class LandingController extends Controller
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function contact()
     {
         return view('contact.contact');    
 =======
+=======
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+>>>>>>> prithvi
     public function managers(){
         return view('table_list.manager');  
     }
