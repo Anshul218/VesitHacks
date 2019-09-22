@@ -96,4 +96,9 @@ class LandingController extends Controller
     {
         return view('userprofile.profile');    
     }
+
+    public function contact()
+    {
+        return view('contact.contact');    
+    }
 }
