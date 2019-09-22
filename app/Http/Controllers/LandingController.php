@@ -100,35 +100,15 @@ class LandingController extends Controller
         return view('userprofile.profile');    
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function contact()
     {
-        return view('contact.contact');    
-=======
-=======
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
->>>>>>> prithvi
+        return view('contact.contact'); 
+    }
     public function managers(){
         return view('table_list.manager');  
     }
 
     public function employees(){
         return view('table_list.employee');
->>>>>>> prithvi
     }
 }
