@@ -19,3 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'LandingController@index');
 Route::get('/login', 'LandingController@login');
+
+Route::get('auth/google', 'Auth\LoginController@redirectToProvider');
+Route::get('auth/google/callback', 'Auth\LoginController@handleProviderCallback');
+

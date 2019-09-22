@@ -30,4 +30,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'google' => [
+        'client_id' => '235641961446-tj9gt425fmvq7sq6mag3lcufm8n0qpbi.apps.googleusercontent.com',
+        'client_secret' => 'XbJTL_y7Ru_GWK9usT6yxhnB',
+        'redirect' => 'http://vesithacks.com/auth/google/callback',
+    ],
+
 ];
