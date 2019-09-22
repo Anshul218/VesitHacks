@@ -89,8 +89,11 @@ class LandingController extends Controller
     
     public function dashboard()
     {
-        // return("hii");
         return view('dashboard.admin_dashboard');    
     }
 
+    public function profile()
+    {
+        return view('userprofile.profile');    
+    }
 }

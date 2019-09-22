@@ -48,7 +48,7 @@
                             <a href="/dashboard"><i class="menu-icon fa fa-laptop"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="#" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>User Profile</a>
+                            <a href="/profile" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>User Profile</a>
                         </li>
                             <li class="menu-item-has-children dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Table List</a>
