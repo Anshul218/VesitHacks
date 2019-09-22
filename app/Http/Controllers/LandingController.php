@@ -43,9 +43,9 @@ class LandingController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        //
+        return view('projects.projects');
     }
 
     /**
@@ -87,4 +87,10 @@ class LandingController extends Controller
         return view('loginpage.login');    
     }
     
+    public function dashboard()
+    {
+        // return("hii");
+        return view('dashboard.admin_dashboard');    
+    }
+
 }
