@@ -25,6 +25,12 @@ Route::get('auth/google/callback', 'Auth\LoginController@handleProviderCallback'
 
 Route::get('/dashboard','LandingController@dashboard');
 Route::get('/projects','LandingController@show');
+
+
+
+
+
+
 Route::get('/profile','landingController@profile');
 Route::get('/managers','LandingController@managers');
 Route::get('/employees','LandingController@employees');
