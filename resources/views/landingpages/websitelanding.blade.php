@@ -74,7 +74,7 @@
 						<div class="col-md-12">
 							<h1 class="white-text">Employee Assessment and Rating System</h1>
 							<p class="lead white-text">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant, eu pro alii error homero.</p>
-							<a class="main-button icon-button" href="/auth/google">Login</a>
+							<a class="main-button icon-button" href="/login">Login</a>
 						</div>
 					</div>
 				</div>
