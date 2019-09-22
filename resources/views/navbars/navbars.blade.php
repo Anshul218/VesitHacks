@@ -61,7 +61,7 @@
                             <a href="/projects" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-book"></i>Projects</a>
                         </li>
                         <li>
-                            <a href="#" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-calendar-check-o"></i>Assessment</a>
+                            <a href="/assessment" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-calendar-check-o"></i>Assessment</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -106,7 +106,7 @@
                             <div class="user-menu dropdown-menu">
                                 <a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile</a>
     
-                                <a href = "/"><i class = "fa fa-power-off"></i>Logout</a>
+                                <a href = "/assessment/assessing"><i class = "fa fa-power-off"></i>Logout</a>
                             </div>
                         </div>
                     </div>
