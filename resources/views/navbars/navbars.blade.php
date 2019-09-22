@@ -74,7 +74,7 @@
             <header id="header" class="header">
                 <div class="top-left">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="./"><img src="../ears.png" style="width: 43px; height: 43px" alt="Logo"></a>
+                    <a class="navbar-brand" href="./"><img src="{{asset('imgs/ears.png')}}"  style="width: 50%"    alt="Logo"></a>
                         <a class="navbar-brand hidden" href="./"><img src="../ears.png" alt="Logo"></a>
                     </div>
                 </div>

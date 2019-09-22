@@ -35,7 +35,7 @@
 					<!-- Logo -->
 					<div class="navbar-brand">
 						<a class="logo" href="#">
-							<img src="{{asset('imgs/ears.png')}}" alt="logo">
+							<img src="{{asset('imgs/ears.png')}}" alt="logo" style = "width: 8vw; height:8vw">
 						</a>
 					</div>
 					<!-- /Logo -->
@@ -73,7 +73,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="white-text">Employee Assessment and Rating System</h1>
-							<p class="lead white-text">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant, eu pro alii error homero.</p>
+							<p class="lead white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sit deleniti minima? Voluptatibus qui atque doloribus eius magnam et ullam, voluptatem quisquam eos tempora eum, minima cum voluptas optio. Distinctio.</p>
 							<a class="main-button icon-button" href="/auth/google">Login</a>
 						</div>
 					</div>
@@ -94,16 +94,16 @@
 
 					<div class="col-md-6">
 						<div class="section-header">
-							<h2>Welcome to Edusite</h2>
-							<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+							<h2>Welcome to EARS</h2>
+							<p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus aliquam porro ipsum doloribus voluptatum laudantium molestiae ex suscipit, praesentium minus modi necessitatibus vero unde optio a quod ut excepturi numquam?</p>
 						</div>
 
 						<!-- feature -->
 						<div class="feature">
 							<i class="feature-icon fa fa-flask"></i>
 							<div class="feature-content">
-								<h4>Online Courses </h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+								<h4>Online Assessment</h4>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore iste assumenda molestias aut provident, sequi explicabo officia maiores repudiandae quod error? Cum nihil minima expedita dolorum, atque nulla eaque debitis!</p>
 							</div>
 						</div>
 						<!-- /feature -->
@@ -112,8 +112,8 @@
 						<div class="feature">
 							<i class="feature-icon fa fa-users"></i>
 							<div class="feature-content">
-								<h4>Expert Teachers</h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+								<h4>Expert Employees</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore illo maiores, reiciendis et eaque aut alias optio totam cumque hic. Dolores exercitationem laborum eos laboriosam, id voluptas alias deserunt?</p>
 							</div>
 						</div>
 						<!-- /feature -->
@@ -123,7 +123,7 @@
 							<i class="feature-icon fa fa-comments"></i>
 							<div class="feature-content">
 								<h4>Community</h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eaque porro rem deleniti nam totam, saepe dolor quam ratione illum veritatis illo, maiores quod! Excepturi nemo laboriosam sunt animi ipsum?</p>
 							</div>
 						</div>
 						<!-- /feature -->
@@ -144,38 +144,6 @@
 			<!-- container -->
 		</div>
 		<!-- /About -->
-
-		<!-- Footer -->
-		<footer id="footer" class="section">
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<!-- footer logo -->
-					<div class="col-md-6">
-						<div class="footer-logo">
-							<a class="logo" href="index.html">
-                                <img src="{{asset('imgs/ears.png')}}" alt="">    
-							</a>
-						</div>
-					</div>
-					<!-- footer logo -->
-
-					<!-- footer nav -->
-					<div class="col-md-6">
-						<ul class="footer-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-					<!-- /footer nav -->
-
-				</div>
-				<!-- /row -->
 
 			</div>
 			<!-- /container -->

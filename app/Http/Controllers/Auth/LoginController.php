@@ -52,6 +52,6 @@ class LoginController extends Controller
     {
         $user = Socialite::driver('google')->stateless()->user();
 
-        return view('dashboard.admin_dashboard');
+        return redirect('/dashboard');
     }
 }
