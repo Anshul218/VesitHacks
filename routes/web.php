@@ -25,11 +25,17 @@ Route::get('auth/google/callback', 'Auth\LoginController@handleProviderCallback'
 
 Route::get('/dashboard','LandingController@dashboard');
 Route::get('/projects','LandingController@show');
+<<<<<<< HEAD
 route::get('/profile','landingController@profile');
 route::get('/contact','landingController@contact');
 
 
 route::get('/assessment','landingController@destroy');
 route::get('/assessment/assessing','landingController@assessment');
+=======
+Route::get('/profile','landingController@profile');
+Route::get('/managers','LandingController@managers');
+Route::get('/employees','LandingController@employees');
+>>>>>>> prithvi
 // Route::get('/', 'logoutController@index');
 

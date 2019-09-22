@@ -53,8 +53,8 @@
                             <li class="menu-item-has-children dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Table List</a>
                                     <ul class="sub-menu children dropdown-menu">
-                                        <li><i class="fa fa-user"></i><a href="#">Manager</a></li>
-                                        <li><i class="fa fa-users"></i><a href="#">Employees</a></li>
+                                        <li><i class="fa fa-user"></i><a href="/managers">Manager</a></li>
+                                        <li><i class="fa fa-users"></i><a href="/employees">Employees</a></li>
                                     </ul>
                                 </li>
                         <li>
@@ -81,22 +81,6 @@
                 <div class="top-right">
                     <div class="header-menu">
                         <div class="header-left">
-                            <div class="dropdown for-notification">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-bell-o"></i>
-                                    <span class="count bg-danger">3</span>
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="notification">
-                                    <a class="dropdown-item media" href="#">
-                                        <i class="fa fa-info"></i>
-                                        <p>Server #2 overloaded.</p>
-                                    </a>
-                                    <a class="dropdown-item media" href="#">
-                                        <i class="fa fa-warning"></i>
-                                        <p>Server #3 overloaded.</p>
-                                    </a>
-                                </div>
-                            </div>
     
                         <div class="user-area dropdown float-right">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
