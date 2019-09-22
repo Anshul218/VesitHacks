@@ -81,4 +81,10 @@ class LandingController extends Controller
     {
         //
     }
+
+    public function login()
+    {
+        return view('loginpage.login');    
+    }
+    
 }
