@@ -70,7 +70,7 @@ a:link, a:visited ,a{
 <h1 style="background-color: #fff ; margin-top: 8%;margin-left:3%">Ongoing Projects</h1>
 <!-- /#header -->                   
              <div class="container1" style="margin-top: 2%;margin-left: 10%;">
-               <div class="card projectdetails" style="background-color:rgba(28,252,3,0.6)">
+               <div class="card projectdetails" style="background-color:rgba(252,127,3,0.6)">
                  <div class="front face">
                     <h1>Project Name</h1>
                     <h3>Department</h3>
@@ -86,8 +86,8 @@ a:link, a:visited ,a{
 <!-- /#header --> 
             
               
-           <div class="container1" style="background-color: #fff;margin-top: 2%;margin-left: 10%">                  
-               <div class="card projectdetails" style="background-color:  rgba(252,127,3,0.6);">
+           <div class="container1" style="background-color: #fff;margin-top: 2%;margin-left: 10%">                 
+               <div class="card projectdetails" style="background-color: rgba(28,252,3,0.6);">
                  <div class="front face">
                     <h1>Project Name</h1>
                     <h3>Department</h3>

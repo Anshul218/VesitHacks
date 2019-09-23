@@ -36,3 +36,6 @@ Route::get('/employees','LandingController@employees');
 route::get('/profile','landingController@profile');
 route::get('/contact','landingController@contact');
 
+
+Route::get('/modal/employees','LandingController@employee_modal');
+

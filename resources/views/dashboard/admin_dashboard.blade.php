@@ -61,6 +61,38 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="stat-widget-five">
+                                    <div class="stat-icon dib flat-color-1">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="text-left dib">
+                                            <div class="stat-heading"><a href="#">Add Managers</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="stat-widget-five">
+                                        <div class="stat-icon dib flat-color-1">
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <div class="stat-content">
+                                            <div class="text-left dib">
+                                                <div class="stat-heading"><a href="/modal/employees">Add Sub-Managers and Employees</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
             <!-- /Calender Chart Weather -->
             <!-- Modal - Calendar - Add New Event -->
             <!-- /#event-modal -->
