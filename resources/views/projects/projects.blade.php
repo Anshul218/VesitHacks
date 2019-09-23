@@ -67,7 +67,23 @@ a:link, a:visited ,a{
 }
 
 </style>
-<h1 style="background-color: #fff ; margin-top: 8%;margin-left:3%">Ongoing Projects</h1>
+<div class="col-lg-3 col-md-6" style="margin-top:5%">
+      <div class="card">
+          <div class="card-body">
+              <div class="stat-widget-five">
+                  <div class="stat-icon dib flat-color-1">
+                      <i class="fa fa-plus"></i>
+                  </div>
+                  <div class="stat-content">
+                      <div class="text-left dib">
+                          <div class="stat-heading"><a href="/modal/employees/update">Create Project</a></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>            
+<h1 style="background-color: #fff ; margin-top: 5%;margin-left:3%">Ongoing Projects</h1>
 <!-- /#header -->                   
              <div class="container1" style="margin-top: 2%;margin-left: 10%;">
                <div class="card projectdetails" style="background-color:rgba(252,127,3,0.6)">
@@ -78,6 +94,7 @@ a:link, a:visited ,a{
                  <div class="back face">
                     <h3>Team Leader</h3>
                     <h3>Number of employees</h3>
+                   <a href="/dashboard"> <button type="button" class="btn btn-primary" style="margin-top:7%" onClick="alert('Project Submitted Successfully')">Submit</button></a>
                  </div>
 
             </div>

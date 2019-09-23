@@ -123,4 +123,12 @@ class LandingController extends Controller
     public function editprofile(){
         return view('userprofile.editprofile');
     }
+
+    public function employee_remove(){
+        return view('modals.remove_employee');
+    }
+
+    public function employee_update(){
+        return view('modals.update_employee');
+    }
 }

@@ -40,15 +40,12 @@
                         <th>Incharge Name</th>
                         <th>Department</th>
                     </tr>
-                    <a href="/assessment/assessing">
                     <tr>
-                        <td>Jatin Acharya</td>
+                        <td><a href="/assessment/assessing">Acharya</a></td>
                         <td>Technical Head</td>
                     </tr>
-                    </a>
-                    <a href="/assessment/assessing">
                     <tr>
-                        <td>Prithvi Amin</td>
+                        <td><a href="/assessment/assessing">Prithvi Amin</a></td>
                         <td>Operations Head</td>
                     </tr>
                 </a>
