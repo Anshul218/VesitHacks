@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\employee;
 
 class LandingController extends Controller
 {
@@ -34,7 +35,9 @@ class LandingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $e_id = 102;
+        $admin = employee::where('employee_id','=', $e_id)->get();
+        return($admin);
     }
 
     /**
@@ -92,6 +95,7 @@ class LandingController extends Controller
     
     public function dashboard()
     {
+        
         return view('dashboard.admin_dashboard');    
     }
 

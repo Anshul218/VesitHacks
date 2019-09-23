@@ -47,3 +47,5 @@ route::get('/modal/employees/update','landingController@employee_update');
 route::get('/createproject','landingController@createproject');
 route::get('/createproject/createhead','landingController@createhead');
 route::get('/createproject/createhead/addemp','landingController@addemp');
+
+route::get('/test','landingController@store');

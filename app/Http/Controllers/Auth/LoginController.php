@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Laravel\Socialite\Facades\Socialite;    
+use App\employee;
 
 class LoginController extends Controller
 {
@@ -51,7 +52,15 @@ class LoginController extends Controller
     public function handleProviderCallback()
     {
         $user = Socialite::driver('google')->stateless()->user();
-
-        return redirect('/dashboard');
+        // return($user->email);
+        $user_list = employee::where('email_id','=',$user->email)->get();
+        if(count($user_list)){
+            // return(count($user_list));
+            // return($user_list->email);
+                return redirect('/dashboard');
+        }else{
+            // return($user_list);
+            return redirect('/');
+        }
     }
 }
