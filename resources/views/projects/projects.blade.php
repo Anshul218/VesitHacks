@@ -76,7 +76,7 @@ a:link, a:visited ,a{
                   </div>
                   <div class="stat-content">
                       <div class="text-left dib">
-                          <div class="stat-heading"><a href="/modal/employees/update">Create Project</a></div>
+                          <div class="stat-heading"><a href="/createproject">Create Project</a></div>
                       </div>
                   </div>
               </div>
