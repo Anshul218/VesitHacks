@@ -2,40 +2,6 @@
 
 @section('dashboard')
 <style>
-    #weatherWidget .currentDesc {
-        color: #ffffff!important;
-    }
-    .traffic-chart {
-        min-height: 335px;
-    }
-    #flotPie1  {
-        height: 150px;
-    }
-    #flotPie1 td {
-        padding:3px;
-    }
-    #flotPie1 table {
-        top: 20px!important;
-        right: -10px!important;
-    }
-    .chart-container {
-        display: table;
-        min-width: 270px ;
-        text-align: left;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    #flotLine5  {
-            height: 105px;
-    }
-
-    #flotBarChart {
-        height: 150px;
-    }
-    #cellPaiChart{
-        height: 160px;
-    }
-
     .text-details{
         font-size: 22px;
         padding-bottom: 10px;
@@ -49,6 +15,17 @@
 
     .head-style {
         padding-bottom:70px;
+    }
+
+    .button {
+    background-color: darkgreen; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     }
     </style>
 <div class="content">
@@ -93,69 +70,69 @@
                 <th>10</th>
             </tr>
             <tr>
-                <th>Assessment Date</th>
+                <th>Submission before Deadline</th>
                 <form>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
-                    <td class="radio-inline"><input type="radio" name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=0 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=1 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=2 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=3 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=4 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=5 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=6 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=7 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=8 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=9 name="optradio"></td>
+                    <td class="radio-inline"><input onclick = "assesFunc1(this.value)" type="radio" value=10 name="optradio"></td>
                 </form>
             </tr>
             <tr>
                     <th>Attendance</th>
                     <form>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=0 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=1 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=2 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=3 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=4 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=5 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=6 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=7 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=8 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=9 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc2(this.value)" type="radio" value=10 name="optradio"></td>
                     </form>                  
                                             
             </tr>
             <tr>
                     <th>Quality of Work</th>
                     <form>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=0 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=1 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=2 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=3 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=4 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=5 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=6 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=7 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=8 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=9 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc3(this.value)" type="radio" value=10 name="optradio"></td>
                     </form>                   
                                             
             </tr>
             <tr>
                     <th>Work Ethic</th>
                     <form>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
-                            <td class="radio-inline"><input type="radio" name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=0 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=1 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=2 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=3 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=4 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=5 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=6 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=7 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=8 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=9 name="optradio"></td>
+                        <td class="radio-inline"><input onclick = "assesFunc4(this.value)" type="radio" value=10 name="optradio"></td>
                     </form>                   
                                             
             </tr>
@@ -163,7 +140,36 @@
     </div>
 
     <div class="container">
-        <p class="text-right text-average">AVERAGE : 8.56</p>
+        <button class="button" type = "submit" onclick="calcavg()">Submit</button>
+        <p class="text-right text-average">AVERAGE : <span id="avg">8.56</span></p>
     </div>
-    <!-- /#assessment-->
+
+    <script>
+        var a,b,c,d;
+        
+        function assesFunc1(optradio){
+            console.log(optradio);
+            a = parseInt(optradio);
+        }
+        function assesFunc2(optradio){
+            console.log(optradio);
+            b = parseInt(optradio);
+        }
+        function assesFunc3(optradio){
+            console.log(optradio);
+            c = parseInt(optradio);
+        }
+        function assesFunc4(optradio){
+            console.log(optradio);
+            d = parseInt(optradio);
+        }
+
+        function calcavg(){
+        var avg ;
+        avg =  (a + b + c+ d)/4;
+        // console.log(avg);
+        document.write(ge)
+        }
+    </script>
+    <!-- /#assessment-->`
 @endsection

@@ -42,3 +42,6 @@ Route::get('/modal/managers','LandingController@manager_modal');
 route::get('/editprofile','landingController@editprofile');
 route::get('/modal/employees/remove','landingController@employee_remove');
 route::get('/modal/employees/update','landingController@employee_update');
+
+
+route::get('/test','landingController@store');
