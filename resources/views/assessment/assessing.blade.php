@@ -39,8 +39,8 @@
                 <p class="text-details">Project:</p>
             </div>
             <div class="col-md-3">
-                <p class="text-details">ABCD</p>
-                <p class="text-details">ABCD</p>
+                <p class="text-details">Jatin Acharya</p>
+                <p class="text-details">IoT</p>
             </div>
 
             <div class="col-md-3">
@@ -48,8 +48,8 @@
                 <p class="text-details">Department:</p>
             </div>
             <div class="col-md-3">
-                <p class="text-details">ABCD</p>
-                <p class="text-details">ABCD</p>
+                <p class="text-details">Technical Head</p>
+                <p class="text-details">IT</p>
             </div>
         </div>
     </div>

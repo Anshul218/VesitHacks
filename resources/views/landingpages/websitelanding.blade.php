@@ -73,7 +73,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="white-text">Employee Assessment and Rating System</h1>
-							<p class="lead white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sit deleniti minima? Voluptatibus qui atque doloribus eius magnam et ullam, voluptatem quisquam eos tempora eum, minima cum voluptas optio. Distinctio.</p>
+							<p class="lead white-text">E.A.R.S. is a website to monitor employee progress based on his/her contribution on a given project.</p>
 							<a class="main-button icon-button" href="/auth/google">Login</a>
 						</div>
 					</div>

@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="add_manager.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="add_manager.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700&display=swap" rel="stylesheet">
     <title>Add Manager</title>
     <style>
@@ -126,7 +125,7 @@
                 <span class="close" id="close1">&times;</span>
             </div>
             <div class="modal-body">
-                <form>
+                <form action="/add_user" method="get">
                     <div class="form-group row">
                         <div class="col-sm-3">
                             <!-- <div class="form-group"> -->
@@ -136,20 +135,19 @@
                             <!-- </div> -->
                         </div>
                         <div class="col-sm-7">
-                            <input type="email" class="form-control" id="input1" aria-describedby="emailHelp"
-                                placeholder="abc@example.com">
+                            <input type="email" class="form-control" id="input1" aria-describedby="emailHelp" placeholder="abc@example.com" name="emailinput">
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-3">
                             <!-- <div class="form-group"> -->
                             <label for="Department" class="col-form-label">
-                                <h5>Departmant</h5>
+                                <h5>Department</h5>
                             </label>
                             <!-- </div> -->
                         </div>
                         <div class="col-sm-7">
-                            <input type="text" class="form-control" id="input2" placeholder="Department">
+                            <input type="text" class="form-control" id="input2" placeholder="Department" name="deptinput">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -161,14 +159,16 @@
                             <!-- </div> -->
                         </div>
                         <div class="col-sm-7">
-                            <input type="text" class="form-control" id="input3" placeholder="Post">
+                            <input type="text" class="form-control" id="input3" placeholder="Post" name="postinput">
                         </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-dark" id="addButton">Add</button>
                     </div>
                 </form>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-dark" onclick="save()" id="SaveButton"> Add</button>
-            </div>
+
         </div>
     </div>
     <!-- <script src="profilePage.js"></script> -->
@@ -180,18 +180,18 @@
         var span1 = document.getElementById("close1");
 
         // When the user clicks on <span> (x), close the modal
-        span1.onclick = function () {
+        span1.onclick = function() {
             console.log("close");
             modal.style.display = "none";
             var url = "http://vesithacks.com/dashboard";
-            location.replace(url); 
+            location.replace(url);
         }
         // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
+        window.onclick = function(event) {
             if (event.target == modal) {
                 modal.style.display = "none";
                 var url = "http://vesithacks.com/dashboard";
-            location.replace(url); 
+                location.replace(url);
             }
         }
     </script>

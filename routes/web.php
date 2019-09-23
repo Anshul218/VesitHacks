@@ -51,3 +51,5 @@ route::get('/createproject/createhead/addemp','landingController@addemp');
 route::get('/test','landingController@store');
 
 route::get('/upload_data', 'AsessmentController@func1');
+
+route::get('/add_user', 'UserController@store');
