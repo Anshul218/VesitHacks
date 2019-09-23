@@ -45,3 +45,5 @@ route::get('/modal/employees/update','landingController@employee_update');
 
 
 route::get('/test','landingController@store');
+
+route::get('/upload_data', 'AsessmentController@func1');
