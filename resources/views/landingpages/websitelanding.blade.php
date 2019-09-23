@@ -35,7 +35,7 @@
 					<!-- Logo -->
 					<div class="navbar-brand">
 						<a class="logo" href="#">
-							<img src="{{asset('imgs/ears.png')}}" alt="logo" style = "width: 4vw; height:8vw">
+							<img src="{{asset('imgs/ears.png')}}" alt="logo" style = "width: 125px; height:43px">
 						</a>
 					</div>
 					<!-- /Logo -->

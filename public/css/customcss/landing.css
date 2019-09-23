@@ -100,7 +100,7 @@ blockquote:before{
 	position:absolute;
 	left:0;
 	top:0;
-	color: #FF6700;
+	color: #72b7df;
 	width:40px;
 	height:40px;
 	line-height:40px;
@@ -159,7 +159,7 @@ blockquote:before{
 	position:relative;
 	display:inline-block;
 	padding:10px 30px;
-	background-color: #FF6700;
+	background-color: #72b7df;
 	border: 2px solid transparent;
 	border-radius: 40px;
 	color: #FFF;
@@ -169,8 +169,8 @@ blockquote:before{
 
 .main-button:hover , .main-button:focus {
 	background-color:#fff;
-	border: 2px solid #FF6700;
-	color:#FF6700;
+	border: 2px solid #72b7df;
+	color:#72b7df;
 }
 
 .main-button.icon-button:hover , .main-button.icon-button:focus {
@@ -211,7 +211,7 @@ textarea {
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
-	border-color:#FF6700;
+	border-color:#72b7df;
 }
 
 /*------------------------------------*\
@@ -274,7 +274,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	content:"";
 	display:block;
 	height:2px;
-	background-color:#FF6700;
+	background-color:#72b7df;
 	width:100%;
 	-webkit-transform: translateY(5px);
 	    -ms-transform: translateY(5px);
@@ -461,7 +461,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	border-radius: 50%;
 	font-size:30px;
 	border:1px solid #EBEBEB;
-	color:#FF6700;
+	color:#72b7df;
 }
 
 .feature-content {
@@ -511,7 +511,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .about-video:hover .play-icon {
-	color:#FF6700;
+	color:#72b7df;
 }
 
 @-webkit-keyframes play-animation {
@@ -543,7 +543,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	bottom:0;
 	top:0;
-	background-color:#FF6700;
+	background-color:#72b7df;
 	opacity:0.7;
 }
 
@@ -574,7 +574,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	bottom:0;
 	top:0;
-	background-color:#FF6700;
+	background-color:#72b7df;
 	opacity:0;
 	-webkit-transition:0.2s opacity;
 	transition:0.2s opacity;
@@ -631,7 +631,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .course .course-details .course-price.course-premium {
-	color: #FF6700;
+	color: #72b7df;
 }
 
 #courses .center-btn {
