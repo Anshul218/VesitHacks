@@ -15,6 +15,7 @@
 //     return view('welcome');
 // });
 
+use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'LandingController@index');
@@ -42,3 +43,7 @@ Route::get('/modal/managers','LandingController@manager_modal');
 route::get('/editprofile','landingController@editprofile');
 route::get('/modal/employees/remove','landingController@employee_remove');
 route::get('/modal/employees/update','landingController@employee_update');
+
+route::get('/createproject','landingController@createproject');
+route::get('/createproject/createhead','landingController@createhead');
+route::get('/createproject/createhead/addemp','landingController@addemp');

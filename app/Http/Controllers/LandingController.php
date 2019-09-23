@@ -131,4 +131,16 @@ class LandingController extends Controller
     public function employee_update(){
         return view('modals.update_employee');
     }
+
+    public function createproject(){
+        return view('projects.createproject');
+    }
+
+    public function createhead(){
+        return view('projects.createhead');
+    }
+
+    public function addemp(){
+        return view('projects.addemp');
+    }
 }

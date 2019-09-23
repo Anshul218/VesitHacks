@@ -7,27 +7,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-
-	<link rel="apple-touch-icon" href="C:\Users\moghe\Desktop\Employee Assessment\1.png">
-	<link rel="shortcut icon" href="C:\Users\moghe\Desktop\Employee Assessment\1.png">
-	
 	<title>Employee Assessment and Rating System/Contact Us</title>
 
 	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet"> -->
 
 	<!-- Bootstrap -->
-    <!-- <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="{{asset('css/contact/bootstrap.min.css')}}" />
 
 	<!-- Font Awesome Icon -->
-    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 
 	<!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="{{asset('css/contact/contact.css')}}" />
-    
+	<link type="text/css" rel="stylesheet" href="{{asset('css/contact/style.css')}}" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,10 +28,11 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
+
 	<style>
 		.panel {
 			/* display: inline-flexbox; */
-			text-align: center; 
+			text-align: center;
 			margin-right: 8%;
 			margin-bottom: 8%;
 			max-width: 25%;
@@ -52,39 +45,38 @@
 <body>
 
 	<!-- Header -->
-	<header id="header">
-		<div class="container">
+	<header id="header" class="transparent-nav">
+		<!-- <div class="container"> -->
 
-			<div class="navbar-header">
-				<!-- Logo -->
-				<div class="navbar-brand">
-					<a class="logo" href="index.html">
-						<img src="{{asset('imgs/ears.png')}}" alt="logo">
-					</a>
-				</div>
-				<!-- /Logo -->
-
-				<!-- Mobile toggle -->
-				<button class="navbar-toggle">
-					<span></span>
-				</button>
-				<!-- /Mobile toggle -->
+		<div class="navbar-header">
+			<!-- Logo -->
+			<div class="navbar-brand">
+				<a class="logo" href="#">
+					<img src="{{asset('imgs/ears.png')}}" alt="logo" style="width: 125px; height:43px">
+				</a>
 			</div>
+			<!-- /Logo -->
 
-			<!-- Navigation -->
-			<nav id="nav">
-				<ul class="main-menu nav navbar-nav navbar-right">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-			<!-- /Navigation -->
-
+			<!-- Mobile toggle -->
+			<button class="navbar-toggle">
+				<span></span>
+			</button>
+			<!-- /Mobile toggle -->
 		</div>
+
+		<!-- Navigation -->
+		<nav id="nav">
+			<ul class="main-menu nav navbar-nav navbar-right">
+				<li><a href="/">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+		<!-- /Navigation -->
+
+		<!-- </div> -->
 	</header>
 	<!-- /Header -->
-
 	<!-- Panels -->
 	<div class="container">
 		<div class="row">
@@ -93,7 +85,7 @@
 					<h3 class="panel-title">Jatin Acharya</h3>
 				</div>
 				<div class="panel-body">
-					<img src="{{asset('imgs/ears.png')}}" height=150px width=150px>
+					<img src="{{asset('imgs/zatin.jpg')}}" height=150px width=150px>
 					<br><br>
 					<h5>Email ID: 2017.jatin.acharya@ves.ac.in</h5>
 					<h5>Contact No.: +91 9819109578</h5>
@@ -106,7 +98,7 @@
 					<h3 class="panel-title">Prithvi Amin</h3>
 				</div>
 				<div class="panel-body">
-					<img src="{{asset('imgs/ears.png')}}" height=150px width=150px>
+					<img src="{{asset('imgs/prithvi.jpg')}}" height=150px width=150px>
 					<br><br>
 					<h5>Email ID: 2017.prithvi.amin@ves.ac.in</h5>
 					<h5>Contact No.: +91 8097438675</h5>
@@ -119,7 +111,7 @@
 					<h3 class="panel-title">Anish Chhabria</h3>
 				</div>
 				<div class="panel-body">
-					<img src="{{asset('imgs/ears.png')}}" height=150px width=150px>
+					<img src="{{asset('imgs/anish.jpg')}}" height=150px width=150px>
 					<br><br>
 					<h5>Email ID: 2017.anish.chhabria@ves.ac.in</h5>
 					<h5>Contact No.: +91 9619287840</h5>
@@ -127,13 +119,13 @@
 				</div>
 			</div>
 		</div>
-			<div class="row">	
+		<div class="row">
 			<div class="panel panel-default col-md-3">
 				<div class="panel-heading">
 					<h3 class="panel-title">Anshul Chaudhary</h3>
 				</div>
 				<div class="panel-body">
-					<img src="{{asset('imgs/ears.png')}}" height=150px width=150px>
+					<img src="{{asset('imgs/anshul.jpg')}}" height=150px width=150px>
 					<br><br>
 					<h5>Email ID: 2017.anshul.chaudhary@ves.ac.in</h5>
 					<h5>Contact No.: +91 9930044967</h5>
@@ -146,7 +138,7 @@
 					<h3 class="panel-title">Sayali Moghe</h3>
 				</div>
 				<div class="panel-body">
-					<img src="{{asset('imgs/ears.png')}}" height=150px width=150px>
+					<img src="{{asset('imgs/sayali.jpg')}}" height=150px width=150px>
 					<br><br>
 					<h5>Email ID: 2017.sayali.moghe@ves.ac.in</h5>
 					<h5>Contact No.: +91 9594033444</h5>
@@ -159,7 +151,7 @@
 					<h3 class="panel-title">Sparsh Prabhakar</h3>
 				</div>
 				<div class="panel-body">
-					<img src="{{asset('imgs/ears.png')}}" height=150px width=150px>
+					<img src="{{asset('imgs/psparsh.jpg')}}" height=150px width=150px>
 					<br><br>
 					<h5>Email ID: 2017.sparsh.prabahakar@ves.ac.in</h5>
 					<h5>Contact No.: +91 9004251621</h5>
