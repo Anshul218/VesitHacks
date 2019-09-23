@@ -70,7 +70,7 @@
                                     </div>
                                     <div class="stat-content">
                                         <div class="text-left dib">
-                                            <div class="stat-heading"><a href="#">Add Managers</a></div>
+                                            <div class="stat-heading"><a href="/modal/managers">Add Managers</a></div>
                                         </div>
                                     </div>
                                 </div>

@@ -115,4 +115,12 @@ class LandingController extends Controller
     public function employee_modal(){
         return view('modals.add_employee');
     }
+
+    public function manager_modal(){
+        return view('modals.add_manager');
+    }
+
+    public function editprofile(){
+        return view('userprofile.editprofile');
+    }
 }

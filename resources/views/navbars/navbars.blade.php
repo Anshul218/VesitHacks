@@ -51,7 +51,7 @@
                         </a>
 
                         <div class="user-menu dropdown-menu">
-                            <a class="nav-link" href="#"><i class="fa fa-user"></i>Edit Profile</a>
+                                <a class="nav-link" href="/editprofile"><i class="fa fa- user"></i>My Profile</a>
                             <a href="/"><i class="fa fa-power-off"></i>Logout</a>
                         </div>
                     </div>

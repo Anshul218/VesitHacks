@@ -183,11 +183,15 @@
         span1.onclick = function () {
             console.log("close");
             modal.style.display = "none";
+            var url = "http://vesithacks.com/dashboard";
+            location.replace(url); 
         }
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {
             if (event.target == modal) {
                 modal.style.display = "none";
+                var url = "http://vesithacks.com/dashboard";
+            location.replace(url); 
             }
         }
     </script>

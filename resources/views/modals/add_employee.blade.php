@@ -179,6 +179,8 @@
         window.onclick = function (event) {
             if (event.target == modal) {
                 modal.style.display = "none";
+                var url = "http://vesithacks.com/dashboard";
+            location.replace(url); 
             }
         }
     </script>

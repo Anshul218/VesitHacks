@@ -68,8 +68,9 @@
                                     </ul>
                                 </div>
                             </div>
-                           
-                        
+                           <div class="button">
+                               <a href="/editprofile"><Button class="btn btn-success" >Edit Profile</Button></a>
+                           </div>
                         </div>
                     </div>
                 </div>

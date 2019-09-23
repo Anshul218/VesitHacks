@@ -38,4 +38,6 @@ route::get('/contact','landingController@contact');
 
 
 Route::get('/modal/employees','LandingController@employee_modal');
+Route::get('/modal/managers','LandingController@manager_modal');
+route::get('/editprofile','landingController@editprofile');
 
