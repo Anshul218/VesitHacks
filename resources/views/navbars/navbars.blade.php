@@ -75,7 +75,6 @@
                 <div class="top-left">
                     <div class="navbar-header">
                     <a class="navbar-brand" href="./"><img src="{{asset('imgs/ears.png')}}"  style="width: 50%"    alt="Logo"></a>
-                        <a class="navbar-brand hidden" href="./"><img src="../ears.png" alt="Logo"></a>
                     </div>
                 </div>
                 <div class="top-right">
@@ -88,9 +87,9 @@
                             </a>
     
                             <div class="user-menu dropdown-menu">
-                                <a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile</a>
+                                <a class="nav-link" href="/editprofile"><i class="fa fa- user"></i>My Profile</a>
     
-                                <a href = "/assessment/assessing"><i class = "fa fa-power-off"></i>Logout</a>
+                                <a href = "/"><i class = "fa fa-power-off"></i>Logout</a>
                             </div>
                         </div>
                     </div>

@@ -111,4 +111,8 @@ class LandingController extends Controller
     public function employees(){
         return view('table_list.employee');
     }
+
+    public function editprofile(){
+        return view('userprofile.editprofile');
+    }
 }
